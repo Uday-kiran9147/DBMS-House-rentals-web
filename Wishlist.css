@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(222, 252, 252);
+}
+
+#optionbar{
+
+background-color: rgb(8, 0, 0);
+font-size: x-large;
+color: aliceblue;
+padding-top: 20px;
+padding-bottom: 20px;
+font-family:Inria Serif;
+
+
+}
+#search{
+    padding-left: 70px;
+    padding-right: 70px;
+     text-decoration: none;
+     color: aliceblue;
+    
+
+}
+#search:hover{
+    text-decoration:underline;
+}
+
+#about{
+        padding-left: 70px;
+    padding-right: 70px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#about:hover{
+    text-decoration:underline;
+}
+#HOME{
+        padding-left: 70px;
+    padding-right: 70px;
+    text-decoration-line: none;
+    color: aliceblue;
+}
+#HOME:hover{
+    text-decoration:underline;
+}
+#Wishlist{
+        padding-left: 70px;
+    padding-right: 70px;
+     text-decoration: none;
+     color: aliceblue;
+}
+#Wishlist:hover{
+    text-decoration:underline;
+}
+#logindirect{
+     font-family: Inria Serif;
+    font-size: x-large;
+    color: B47907;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 13px;
+    background-color:black ;
+    border: 1px, solid;
+    border-color: rgb(226, 167, 99);
+}
+#logindirect:hover{
+    background-color: rgba(0, 0, 0,0.5);
+}
+#loginspan{
+    padding-left: 100px;
+    padding-right: 80px;
+    font-family: Inria Serif;
+}
+
+#signupdirect{
+     font-family: Inria Serif;
+    font-size: x-large;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 13px;
+    right: 50px;
+    background-color:rgb(226, 167, 99);
+    border: 1px, solid;
+   
+}
+#gif{
+    padding-left: 30px;
+    padding-right: 50px;
+}

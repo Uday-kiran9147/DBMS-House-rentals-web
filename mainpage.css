@@ -1,0 +1,562 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(222, 252, 252);
+    font-family:Inria Serif;
+}
+
+#optionbar{
+
+background-color: rgb(8, 0, 0);
+font-size: x-large;
+color: aliceblue;
+padding-top: 20px;
+padding-bottom: 20px;
+font-family:Inria Serif;
+
+
+
+}
+#search{
+    padding-left: 70px;
+    padding-right: 70px;
+     text-decoration: none;
+     color: aliceblue;
+    
+
+}
+#search:hover{
+    text-decoration:underline;
+}
+
+#about{
+        padding-left: 70px;
+    padding-right: 70px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#about:hover{
+    text-decoration: underline;
+}
+#HOME{
+        padding-left: 70px;
+    padding-right: 70px;
+    text-decoration-line: none;
+    color: aliceblue;
+}
+#home:hover{
+       text-decoration: underline;
+}
+#Wishlist{
+        padding-left: 70px;
+    padding-right: 70px;
+     text-decoration: none;
+     color: aliceblue;
+}
+#Wishlist:hover{
+       text-decoration: underline;
+}
+#logindirect{
+     font-family: Inria Serif;
+    font-size: x-large;
+    color: B47907;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 13px;
+    background-color:black ;
+    border: 1px, solid;
+    border-color: rgb(226, 167, 99);
+}
+#logindirect:hover{
+    background-color: rgba(0, 0, 0,0.1);
+}
+#loginspan{
+    padding-left: 100px;
+    padding-right: 80px;
+    font-family: Inria Serif;
+}
+
+#signupdirect{
+     font-family: Inria Serif;
+    font-size: x-large;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 13px;
+    right: 50px;
+    background-color:rgb(226, 167, 99);
+    border: 1px, solid;
+   
+}
+#gif{
+    padding-top: 0;
+   position: relative;
+   bottom: 10px;
+    background-color: black;
+}
+#searchbar{
+    padding-left: 50px;
+   
+}
+#searchbox{
+    background-color: rgba(117,109,110,0.8);
+    position: absolute;
+    top: 80;
+    height: 50px;
+    width: 550px;
+     border: 1px,solid;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    padding-left: 40px;
+   
+}
+/* #searchbox:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(160, 229, 229,0.5);
+} */
+#searchgif{
+    height: 50px;
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    left: 560px;
+    border: 100px,solid;
+    border-radius: 10px;
+    border-color: black;
+
+    background-color:756D6E ;
+}
+::placeholder{
+    color: white;
+    padding-left: 130px;
+    font-size: x-large;
+    font: bolder;
+}
+
+
+#filterbutn{
+    padding-left: 50;
+    padding-right: 50;
+    padding-top: 5;
+    font-size: xx-large;
+position: absolute;
+left: 1200px;
+top: 80;
+border-radius: 10px;
+background-color:rgba(72, 66, 57 ,0.7);
+
+}
+#filtericon{
+    height: 30;
+    position: absolute;
+left: 1208px;
+top: 89;
+border-radius: 10px;
+background-color: rgba(72 ,66, 57,0.7);
+}
+
+#IMAGE1{
+    position: absolute;
+    left: 30px;
+    top: 260;
+}
+#image1image{
+    width: 350px;
+    height: 200;
+}
+#image1text{
+    color: black;
+    text-decoration: none;
+ position: absolute;
+    left: 100px;
+    top: 220;
+}
+#IMAGE2{
+    position: absolute;
+    left: 405px;
+    top: 260;
+}
+#image2image{
+    border-radius: 10px;
+    width: 350px;
+    height: 200;
+}
+#image2text{
+     color: black;
+    text-decoration: none;
+ position: absolute;
+    left: 100px;
+    top: 220;
+}
+#IMAGE3{
+    position: absolute;
+    left: 780px;
+    top: 260;
+}
+#image3image{
+    border-radius: 10px;
+    width: 350px;
+    height: 200;
+}
+#image3text{
+     color: black;
+    text-decoration: none;
+ position: absolute;
+    left: 100px;
+    top: 220;
+}
+#IMAGE4{
+    position: absolute;
+    left: 1150px;
+    top: 260;
+}
+#image4image{
+    border-radius: 10px;
+    width: 350px;
+    height: 200;
+}
+#image4text{
+     color: black;
+    text-decoration: none;
+ position: absolute;
+    left: 100px;
+    top: 220;
+}
+
+#IMAGE5{
+    position: absolute;
+    left: 30px;
+    top: 510;
+}
+#image5image{
+     border-radius: 10px;
+    width: 350px;
+    height: 200;
+}
+#image5text{
+     color: black;
+    text-decoration: none;
+ position: absolute;
+    left: 100px;
+    top: 220;
+}
+#IMAGE6{
+    position: absolute;
+    left: 405px;
+    top: 510;
+}
+#image6image{
+    border-radius: 10px;
+    width: 350px;
+    height: 200;
+}
+#image6text{
+     color: black;
+    text-decoration: none;
+ position: absolute;
+    left: 100px;
+    top: 220;
+}
+#IMAGE7{
+ 
+    position: absolute;
+    left: 780px;
+    top: 510;
+}
+#image7image{
+       border-radius: 10px;
+    width: 350px;
+    height: 200;
+}
+#image7text{
+     color: black;
+    text-decoration: none;
+ position: absolute;
+    left: 100px;
+    top: 220;
+}
+#IMAGE8{
+    position: absolute;
+    left: 1150px;
+    top: 510;
+}
+#image8image{
+    border-radius: 10px;
+    width: 350px;
+    height: 200;
+}
+#image8text{
+     color: black;
+    text-decoration: none;
+ position: absolute;
+    left: 100px;
+    top: 220;
+}
+
+#farmtype{
+    position: absolute;
+    top: 150;
+    left: 90;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#farmtype:hover{
+    opacity: 0.4;
+}
+
+#farmtypetext{
+      position: absolute;
+    top: 230;
+    left: 110;
+    text-decoration: none;
+    color: black;
+
+}
+#pooltype{
+    position: absolute;
+    top: 150;
+    left: 200;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#pooltype:hover{
+    opacity: 0.4;
+}
+
+#pooltypetext{
+      position: absolute;
+    top: 230;
+    left: 220;
+    text-decoration: none;
+     color: black;
+
+}
+
+#camptype{
+    position: absolute;
+    top: 150;
+    left: 310;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#camptype:hover{
+    opacity: 0.4;
+}
+
+#camptypetext{
+      position: absolute;
+    top: 230;
+    left: 330;
+     color: black;
+    text-decoration: none;
+
+}
+#beachfronttype{
+    position: absolute;
+    top: 150;
+    left: 420;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#beachfronttype:hover{
+    opacity: 0.4;
+}
+
+#beachfronttypetext{
+      position: absolute;
+    top: 230;
+    left: 440;
+    text-decoration: none;
+     color: black;
+
+}
+#countrysidetype{
+    position: absolute;
+    top: 150;
+    left: 530;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#countrysidetype:hover{
+    opacity: 0.4;
+}
+
+#countrysidetypetext{
+      position: absolute;
+    top: 230;
+    left: 530;
+    text-decoration: none;
+     color: black;
+
+}
+#luxurytype{
+    position: absolute;
+    top: 150;
+    left: 640;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#luxurytype:hover{
+    opacity: 0.4;
+}
+
+#luxurytypetext{
+      position: absolute;
+    top: 230;
+    left: 660;
+    text-decoration: none;
+     color: black;
+
+}
+#mansiontype{
+    position: absolute;
+    top: 150;
+    left: 750;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#mansiontype:hover{
+    opacity: 0.4;
+}
+
+#mansiontypetext{
+      position: absolute;
+    top: 230;
+    left: 765;
+    text-decoration: none;
+     color: black;
+
+}
+
+#cavetype{
+    position: absolute;
+    top: 150;
+    left: 860;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#cavetype:hover{
+    opacity: 0.4;
+}
+
+#cavetypetext{
+      position: absolute;
+    top: 230;
+    left: 880;
+    text-decoration: none;
+     color: black;
+
+}
+#independenttype{
+    position: absolute;
+    top: 150;
+    left: 970;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#independenttype:hover{
+    opacity: 0.4;
+}
+
+#independenttypetext{
+      position: absolute;
+    top: 230;
+    left: 975;
+    text-decoration: none;
+     color: black;
+
+}
+
+#flattype{
+    position: absolute;
+    top: 150;
+    left: 1080;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#flattype:hover{
+    opacity: 0.4;
+}
+
+
+#flattypetext{
+      position: absolute;
+    top: 230;
+    left: 1110;
+    text-decoration: none;
+     color: black;
+
+}
+#incitytype{
+      position: absolute;
+    top: 150;
+    left: 1190;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#incitytype:hover{
+    opacity: 0.4;
+}
+
+
+#incitytypetext{
+      position: absolute;
+    top: 230;
+    left: 1210;
+    text-decoration: none;
+     color: black;
+
+}
+
+#trendingtype{
+position: absolute;
+    top: 150;
+    left: 1300;
+    border: 1px;
+    border-radius: 50%;
+
+    
+}
+#trendingtype:hover{
+    opacity: 0.4;
+}
+
+
+#trendingtypetext{
+      position: absolute;
+    top: 230;
+    left: 1310;
+    text-decoration: none;
+     color: black;
+
+}
